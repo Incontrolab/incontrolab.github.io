@@ -2,8 +2,10 @@
 body
 {
   color: #fff;
-  background-color: #333;
+  background: center / cover url("background.jpg");
   font-family: monospace;
+  margin: 0;
+  padding: 0;
 }
 
 a,
@@ -60,12 +62,14 @@ a:active
 {
   width: 200px;
   user-select: none;
+  filter: drop-shadow(0 10px 20px #000);
 }
 
 .button
 {
   cursor: pointer;
   transition: transform 0.1s ease-in-out;
+  transform: scale(90%);
 }
 
 .button:hover
@@ -76,4 +80,17 @@ a:active
 .button:active
 {
   transform: scale(80%);
+}
+
+/* background */
+
+.background
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: center / cover url("background.jpg");
+  filter: blur(10px);
 }
