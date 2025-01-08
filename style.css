@@ -1,0 +1,79 @@
+
+body
+{
+  color: #fff;
+  background-color: #333;
+  font-family: monospace;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active
+{
+  color: #fff;
+}
+
+/* grid */
+
+.grid
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div
+{
+  flex: auto;
+}
+
+.grid img
+{
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  aspect-ratio: 1;
+  transform: scale(90%);
+  user-select: none;
+}
+
+/* center */
+
+.container
+{
+  position: relative;
+  max-width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.center
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center img
+{
+  width: 200px;
+  user-select: none;
+}
+
+.button
+{
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.button:hover
+{
+  transform: scale(100%);
+}
+
+.button:active
+{
+  transform: scale(80%);
+}
