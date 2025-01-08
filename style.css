@@ -56,6 +56,7 @@ a:active
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 .center img
@@ -93,4 +94,28 @@ a:active
   bottom: 0;
   background: center / cover url("background.jpg");
   filter: blur(10px);
+}
+
+/* wip */
+
+@keyframes scroll {
+  from {
+    background-position : 0px
+  }
+  to {
+    background-position : -100vw
+  }
+}
+
+.wip
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translate(0%, -50%);
+  height: 20px;
+  background: center / contain url("gif/wip.gif");
+  animation: scroll 10s linear infinite;
+  z-index: 1;
 }
