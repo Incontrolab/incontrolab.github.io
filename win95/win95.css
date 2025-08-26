@@ -15,7 +15,6 @@ Body styles
 
 */
 .win95-body {
-    font-family: "MS Sans Serif",Tahoma,Verdana,Segoe,sans-serif; 
     background: teal;
     color: white;
     padding-bottom: 28px;
@@ -128,6 +127,7 @@ CARDS
 
 */
 .card{
+    font-family: "MS Sans Serif",Tahoma,Verdana,Segoe,sans-serif; 
     border: solid;
     border-width: 2px;
     border-bottom-color: #424242;

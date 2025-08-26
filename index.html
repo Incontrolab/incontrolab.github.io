@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="win95/win95.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="crashboard/crashboard.css" />
 </head>
 <html>
     <div class="container background">
@@ -22,16 +23,44 @@
             <div class="center">↓</div>
         </div>
     </div>
-    <div class="container win95-body">
-        <div class="center">
-            <div class="card crashboard-description">
-                <div class="card-header">Crashboard 2000</div>
-                <p>Crashboard takes you through an epic ride among dancing bananas, sparkly butterflies and big yellow construction panels : an immersive surfing experience into the cyberspace.</p>
-            </div>
+    <div class="container crashboard">
+        <div class="card crashboard-description">
+            <div class="card-header">Crashboard</div>
+            <p>Crashboard takes you through an epic ride among dancing bananas, sparkly butterflies and big yellow construction panels : an immersive surfing experience into the cyberspace.</p>
+        </div>
+        <div class="card-video">
             <div class="card">
                 <div class="card-header">Trailer</div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cqig9UFxxfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
+        <div class="crashboard-gallery">
+            <div class="card">
+                <div class="card-header">📷 Ben Peter Catchpole</div>
+                <img src="crashboard/ben-peter-catchpole-1.jpg" />
+            </div>
+            <div class="card">
+                <div class="card-header">📷 Isaac Ponseele</div>
+                <img src="crashboard/isaac-ponseele-1.jpeg" />
+            </div>
+            <div class="card">
+                <div class="card-header">📷 Jens Keiner</div>
+                <img src="crashboard/jens-keiner-1.jpg" />
+            </div>
+        </div>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            var scrollpos = sessionStorage.getItem('scrollpos');
+            if (scrollpos) {
+                window.scrollTo(0, scrollpos);
+                sessionStorage.removeItem('scrollpos');
+            }
+        });
+
+        window.addEventListener("beforeunload", function (e) {
+            sessionStorage.setItem('scrollpos', window.scrollY);
+        });
+    </script>
+
 </html>

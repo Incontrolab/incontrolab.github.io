@@ -26,6 +26,23 @@ a:active
   height: 100vh;
 }
 
+.center
+{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-vertical
+{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
 /* style */
 
 .logo
@@ -69,48 +86,6 @@ a:active
   bottom: 40px;
   width: 100vw;
   font-size: 60px;
-}
-
-/* crashboard */
-
-.win95-body
-{
-  background: repeat url("gif/bgstar1_6.gif");
-}
-
-.crashboard-description
-{
-  width: 400px;
-  text-align: justify;
-  margin: 10px auto;
-}
-
-.card-header
-{
-  padding: 4px 8px;
-}
-
-.card p
-{
-  padding: 4px 8px;
-  margin: 0;
-  font-size: 14px;
-}
-
-.card iframe
-{
-  padding: 4px 4px 0px 4px;
-}
-
-/* centering */
-
-.center
-{
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /* button behavior */
