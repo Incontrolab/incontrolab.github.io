@@ -11,14 +11,7 @@
 
 .card
 {
-}
-
-.crashboard-description
-{
-    width: 400px;
-    text-align: left;
-    margin: 0 auto;
-    display: block;
+    font-size: 2vmin;
 }
 
 .card-header
@@ -30,40 +23,58 @@
 {
     padding: 4px 8px;
     margin: 0;
-    font-size: 14px;
+}
+
+.crashboard-description
+{
+    width: 30vw;
+    text-align: left;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
 }
 
 .card-video
 {
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 63vmin;
+    height: 40vmin;
 }
 
-.card iframe
+.card-video iframe
 {
-    max-width: 100%;
-    height: 30vh;
+    position: absolute;
+    height: calc(100% - 4vmin);
 }
 
-.crashboard-gallery
+.card-photo-1
 {
-    position: relative;
-    height: 30vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow: hidden;
+    position: absolute;
+    left: 10vw;
+    bottom: 10vh;
+    width: 30vmin;
 }
 
-.crashboard-gallery .card
+.card-photo-2
 {
-    height: 100%;
-    /* padding: 4px 4px 0px 4px; */
-    /* width: fit-content; */
+    position: absolute;
+    right: 5vw;
+    bottom: 5vh;
+    width: 25vmin;
 }
 
-.crashboard-gallery img
+.card-photo-3
 {
-    position: relative;
-    height: calc(100% - 34px);
+    position: absolute;
+    right: 15vw;
+    top: 10vh;
+    width: 25vmin;
+}
+
+.card img
+{
+    width: 100%;
 }
