@@ -1,0 +1,70 @@
+
+.tetardise
+{
+    background: center / cover url("tetardise-1.jpg");
+}
+
+.tetardise-description
+{
+    position: absolute;
+    width: 50vw;
+    top: 5vh;
+    right: 5vw;
+    color: black;
+    background-color: white;
+    padding: 0;
+    transform: rotate(2deg);
+}
+
+.tetardise-description p
+{
+    padding: 8px;
+    margin: 0;
+}
+
+
+.tetardise-video
+{
+    position: absolute;
+    width: 40vw;
+    top: 25vh;
+    right: 5vw;
+    transform: rotate(-2deg);
+}
+
+.tetardise-video video
+{
+    width: 100%;
+}
+
+.tetardise-img-1
+{
+    position: absolute;
+    width: 20vw;
+    bottom: 5vh;
+    right: 5vw;
+    transform: rotate(3deg);
+}
+
+.tetardise-img-2
+{
+    position: absolute;
+    width: 25vw;
+    bottom: 10vh;
+    right: 50%;
+    transform: rotate(1deg) translateX(70%);
+}
+
+.tetardise-img-3
+{
+    position: absolute;
+    width: 40vw;
+    bottom: 10vh;
+    right: 5vw;
+    transform: rotate(-2deg);
+}
+
+.tetardise img
+{
+    width: 100%;
+}

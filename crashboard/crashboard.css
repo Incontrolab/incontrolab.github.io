@@ -4,9 +4,6 @@
 .crashboard
 {
     background: repeat url("/gif/bgstar1_6.gif");
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .card
@@ -21,13 +18,14 @@
 
 .card p
 {
+    font-size: 1.5vmin;
     padding: 4px 8px;
     margin: 0;
 }
 
 .crashboard-description
 {
-    width: 30vw;
+    width: 40vw;
     text-align: left;
     position: absolute;
     left: 10vw;
@@ -44,10 +42,11 @@
     height: 40vmin;
 }
 
-.card-video iframe
+.card-video video
 {
-    position: absolute;
-    height: calc(100% - 4vmin);
+    margin-top: 4px;
+    width: calc(100% - 2px);
+    height: calc(40vmin - 2vmin - 24px);
 }
 
 .card-photo-1
@@ -62,7 +61,7 @@
 {
     position: absolute;
     right: 5vw;
-    bottom: 5vh;
+    bottom: 10vh;
     width: 25vmin;
 }
 
@@ -70,11 +69,28 @@
 {
     position: absolute;
     right: 15vw;
-    top: 10vh;
+    top: 14vh;
     width: 25vmin;
+}
+
+.card-photo-4
+{
+    position: absolute;
+    left: 5vw;
+    top: 35vh;
+    width: 25vmin;
+}
+
+.card-photo-5
+{
+    position: absolute;
+    right: 20vw;
+    bottom: 5vh;
+    width: 45vmin;
 }
 
 .card img
 {
-    width: 100%;
+    width: calc(100% - 2px);
+    margin-top: 4px;
 }
