@@ -4,6 +4,7 @@
 .crashboard
 {
     background: repeat url("/gif/bgstar1_6.gif");
+    min-height: 100vh;
 }
 
 .card

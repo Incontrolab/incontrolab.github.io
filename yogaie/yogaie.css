@@ -2,6 +2,7 @@
 .yogaie
 {
     background: center / cover url("2.jpg");
+    
 }
 
 .yogaie-container
@@ -13,15 +14,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 
 .yogaie-description
 {
     color: #fff;
-    background-color: rgb(255, 0, 149);
+    font-weight: bolder;
+    background-color: rgb(151, 0, 88);
     padding: 0;
     width: 100%;
-    font-size: 2vmin;
     margin: 8px;
     border-radius: 50px;
 }

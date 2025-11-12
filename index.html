@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="orbital/orbital.css" />
 </head>
 <html>
-    <div class="container background">
+    <div class="background">
         <div class="center">
             <img class="logo button" src="button/yellow.png" draggable="false">
             <p class="yellow-box description">Incontrolab is a collective of artists and game dev creating alternative game controllers and playful installations. <strong>We make uncontrollables!</strong></p>
@@ -34,7 +34,7 @@
             <div class="center">↓</div>
         </div>
     </div>
-    <div class="container crashboard">
+    <div class="crashboard">
         <div class="card crashboard-description">
             <div class="card-header">Crashboard</div>
             <p>Crashboard takes you through an epic ride among dancing bananas, sparkly butterflies and big yellow construction panels : an immersive surfing experience into the cyberspace.</p>
@@ -65,7 +65,7 @@
             </video>
         </div>
     </div>
-    <div class="container miroir-arcade">
+    <div class="miroir-arcade">
         <div class="miroir-arcade-container">
             <div class="miroir-arcade-video">
                 <video controls poster="miroir-arcade/miroir-arcade-poster.png">
@@ -82,7 +82,7 @@
             </div>
         </div>
     </div>
-    <div class="container orbital">
+    <div class="orbital">
         <div class="orbital-container">
             <div class="orbital-video">
                 <video controls poster="orbital/orbital-poster.png">
@@ -90,7 +90,7 @@
                 </video>
             </div>
             <div class="orbital-description">
-                <p>Chevauchez vaillamment votre balle et défoncez sans vergogne toutes les figures de yoga qui oseront se dresser sur votre chemin vers le fun !</p>
+                <p>Orbital is a spherical bullet hell on rail controlled by a real globe. You play as a cyber criminal who hacked the security of a military satellite. You exploit this planetary device to harvest sensible data and sell it to the dark web.</p>
             </div>
             <div class="orbital-gallery">
                 <img src="orbital/1.png" />
@@ -98,7 +98,7 @@
             </div>
         </div>
     </div>
-    <div class="container yogaie">
+    <div class="yogaie">
         <div class="yogaie-container">
             <div class="yogaie-video">
                 <video controls poster="yogaie/yogaie-poster.png">
@@ -106,7 +106,7 @@
                 </video>
             </div>
             <div class="yogaie-description">
-                <p>Chevauchez vaillamment votre balle et défoncez sans vergogne toutes les figures de yoga qui oseront se dresser sur votre chemin vers le fun !</p>
+                <p>Ride your ball bravely and shamelessly smash any yoga figures that dare stand in your way of fun!</p>
             </div>
             <div class="yogaie-gallery">
                 <img src="yogaie/1.jpg" />
@@ -115,7 +115,7 @@
             </div>
         </div>
     </div>
-    <div class="container tetardise">
+    <div class="tetardise">
         <div class="tetardise-container">
             <div class="tetardise-description">
                 <p>Têtardise is an internet roaming experience, using the wheel of a coffee mill to scroll the history of a web navigator. While you're diving through websites in decomposition, a social network herd simulation will crawl in between digital data. Use a heart shaped button to make the individuals react to online content and find out the narrative in between the browser history.</p>
@@ -135,18 +135,5 @@
             </div>
         </div>
     </div>
-    <script>
-        document.addEventListener("DOMContentLoaded", function (event) {
-            var scrollpos = sessionStorage.getItem('scrollpos');
-            if (scrollpos) {
-                window.scrollTo(0, scrollpos);
-                sessionStorage.removeItem('scrollpos');
-            }
-        });
-
-        window.addEventListener("beforeunload", function (e) {
-            sessionStorage.setItem('scrollpos', window.scrollY);
-        });
-    </script>
 
 </html>

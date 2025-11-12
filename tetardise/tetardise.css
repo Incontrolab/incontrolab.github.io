@@ -2,6 +2,7 @@
 .tetardise
 {
     background: center / cover url("tetardise-1.jpg");
+    min-height: 100vh;
 }
 
 .tetardise-container
@@ -25,7 +26,6 @@
     width: 60vw;
     margin-top: 5vh;
     margin-bottom: 3vh;
-    font-size: 2vmin;
 }
 
 .tetardise-description p
