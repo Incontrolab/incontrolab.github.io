@@ -1,0 +1,58 @@
+
+.miroir-arcade
+{
+    background: center / cover url("4.jpg");
+}
+
+.miroir-arcade-container
+{
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 25vh;
+}
+
+.miroir-arcade-description
+{
+    color: black;
+    background-color: rgb(255, 217, 0);
+    box-shadow: 4px 4px 0 #ff9900;
+    padding: 0;
+    width: 20vw;
+    font-size: 12px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.miroir-arcade-description p
+{
+    padding: 8px;
+    margin: 0;
+}
+
+.miroir-arcade-video
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.miroir-arcade-video video
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.miroir-arcade img
+{
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 0 #333;
+    margin: 8px;
+}
