@@ -1,0 +1,62 @@
+
+.yogaie
+{
+    background: center / cover url("2.jpg");
+}
+
+.yogaie-container
+{
+    max-width: 800px;
+    height: 100%;
+    margin: auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.yogaie-description
+{
+    color: #fff;
+    background-color: rgb(255, 0, 149);
+    padding: 0;
+    width: 100%;
+    font-size: 2vmin;
+    margin: 8px;
+    border-radius: 50px;
+}
+
+.yogaie-description p
+{
+    padding: 24px;
+    margin: 0;
+}
+
+.yogaie-video
+{
+    width: 100%;
+    margin: 8px;
+}
+
+.yogaie-gallery
+{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.yogaie-video video
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 400px;
+}
+
+.yogaie img
+{
+    height: 30vh;
+    border-radius: 200px;
+    margin: 8px;
+}

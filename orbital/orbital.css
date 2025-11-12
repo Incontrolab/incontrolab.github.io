@@ -1,0 +1,62 @@
+
+.orbital
+{
+    background: center / cover url("5.png");
+}
+
+.orbital-container
+{
+    max-width: 800px;
+    height: 100%;
+    margin: auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.orbital-description
+{
+    color: #fff;
+    padding: 0;
+    width: 100%;
+    font-size: 2vmin;
+    margin: 8px;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+}
+
+.orbital-description p
+{
+    padding: 24px;
+    margin: 0;
+}
+
+.orbital-video
+{
+    width: 100%;
+    margin: 8px;
+    border: 1px solid white;
+}
+
+.orbital-gallery
+{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.orbital-video video
+{
+    width: 100%;
+    height: 100%;
+}
+
+.orbital img
+{
+    height: 20vh;
+    margin: 8px;
+    border: 1px solid white;
+}

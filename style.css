@@ -1,8 +1,10 @@
 
 body
 {
-  color: #000;
+  color: #fff;
+  background-color: #000;
   font-family: monospace;
+  font-size: 1.5vmin;
   margin: 0;
   padding: 0;
 }
@@ -64,13 +66,13 @@ a:active
 
 .description
 {
-  width: 400px;
+  width: 500px;
   text-align: left;
 }
 
 .links
 {
-  width: 240px;
+  width: fit-content;
   margin: 8px auto;
 }
 
